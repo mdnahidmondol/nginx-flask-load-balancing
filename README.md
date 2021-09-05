@@ -1,5 +1,6 @@
-# Load Balancing solution with Docker and nginx 
-# Web App using Flask
+# Load Balancing solution with Docker, Nginx and Flask
+
+NGINX as a load balancer to distribute 60% of traffic to application1 and 40% of traffic to application2.
 
 ```sh
 docker-compose build
